@@ -1,5 +1,4 @@
 import 'dart:math';
-
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
@@ -123,7 +122,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                             BorderRadius.circular(10.0),
                                       ),
                                     ),
-                                    Text('@$author ',
+                                    Text('@$author,',
                                         style: const TextStyle(
                                             fontSize: 10,
                                             fontWeight: FontWeight.bold)),
